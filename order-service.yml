@@ -13,3 +13,7 @@ spring:
     show-sql: true
 
 message: "Order Service Configuration"
+
+# Product Service URL for inter-service communication
+product-service:
+  url: http://localhost:8081
