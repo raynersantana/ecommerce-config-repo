@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://production-db-server:5432/product_db_prod
+    username: prod_user
+    password: prod_password
+
+message: "Product Service - Production Environment"
+
+logging:
+  level:
+    root: WARN
